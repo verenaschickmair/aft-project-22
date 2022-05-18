@@ -1,0 +1,14 @@
+button {
+  background-color: $black;
+  color: white;
+  border: 1px solid $black;
+  padding: .5em 1.2em;
+  @include border-radius(.5em)
+}
+
+.btn-grey{
+  @extend button;
+  background-color: $light-grey;
+  border: 1px solid $light-grey;
+  color: $dark-grey;
+}

@@ -1,0 +1,11 @@
+@mixin border-radius($radius){
+  border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+}
+
+@mixin grid($columns, $gap: 1em){
+    display: grid;
+    grid-template-columns: repeat(#{$columns}, 1fr);
+    grid-gap: $gap;
+}

@@ -1,0 +1,12 @@
+.pizza-grid{
+  @include grid(3);
+  justify-content: center;
+  align-items: center;
+
+  .pizza-grid-child{
+    padding: 20px;
+    color: $light-grey;
+    background-color: $dark-grey;
+    @include border-radius(10pt);
+  }
+}

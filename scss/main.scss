@@ -16,10 +16,25 @@
 @import "../node_modules/bootstrap/scss/containers";
 @import "../node_modules/bootstrap/scss/grid";
 @import "../node_modules/bootstrap/scss/helpers";
+@import "../node_modules/bootstrap/scss/carousel";
+@import "../node_modules/bootstrap/scss/nav";
+@import "../node_modules/bootstrap/scss/navbar";
 
 // 5. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
 @import "../node_modules/bootstrap/scss/utilities/api";
 
 // 6. Add additional custom code here
-@import "grid";
+$black: #222;
+$light-grey: #eee;
+$grey: #999;
+$dark-grey: #555;
+
+.title{
+  font-family: 'Smooch', sans-serif;
+  font-size: 50pt;
+  text-align: center;
+}
+
+@import "mixins";
 @import "components";
+@import "grids";
