@@ -1,4 +1,4 @@
 node_modules/
 .idea/
-public/*.css
-public/*.css.map
+public/css/*.css
+public/css/*.css.map
