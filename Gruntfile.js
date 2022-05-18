@@ -18,7 +18,7 @@ module.exports = function(grunt) {
                 separator: ';',
             },
             dist: {
-                src: ['node_modules/bootstrap/js/carousel.js', 'node_modules/bootstrap/js/collapse.js'],
+                src: ['node_modules/bootstrap/js/dist/carousel.js', 'node_modules/bootstrap/js/dist/collapse.js'],
                 dest: 'public/built.js',
             },
         },
