@@ -1,3 +1,15 @@
+@mixin btn($color,$font-color,$size){
+  background: $color;
+  color: $font-color;
+  font-size: $size;
+  padding: .6em 1.2em;
+  transition: background 0.2s;
+
+  &:hover{
+    background: rgba($color,0.6);
+  }
+}
+
 @mixin border-radius($radius){
   border-radius: $radius;
   -webkit-border-radius: $radius;
