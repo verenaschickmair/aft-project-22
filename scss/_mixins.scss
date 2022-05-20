@@ -1,12 +1,12 @@
-@mixin btn($color,$font-color,$size){
-  background: $color;
+@mixin btn($bgcolor,$font-color,$size){
+  background: $bgcolor;
   color: $font-color;
   font-size: $size;
   padding: .6em 1.2em;
   transition: background 0.2s;
 
-  &:hover{
-    background: rgba($color,0.6);
+  &:hover, &:focus, &:active{
+    background: rgba($bgcolor,0.6);
   }
 }
 
